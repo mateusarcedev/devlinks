@@ -47,6 +47,7 @@ When i started study programming I felt a great difficulty to find material for 
 * [Picular](https://picular.co/)
 * [Grabient](https://www.grabient.com/)
 * [Brand Colors](https://brandcolors.net/)
+* [Genarate Colors Palete](https://smart-swatch.netlify.app/)
 
 ### APIs
 * [RapidAPI](https://rapidapi.com/hub)
