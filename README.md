@@ -12,6 +12,7 @@ Quando comecei a estudar programação, senti uma grande dificuldade em encontra
 - [HackerRank](https://www.hackerrank.com/dashboard)
 - [Codility](https://app.codility.com/programmers/)
 - [JS Challenger](https://www.jschallenger.com/)
+- [BeeCrowd](https://www.beecrowd.com.br/judge/pt/)
 
 ### APIs
 - [RapidAPI](https://rapidapi.com/hub)
