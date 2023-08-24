@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-       <Head>
+      <Head>
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
@@ -25,6 +25,11 @@ export default function RootLayout({ children }) {
               })(window, document, "clarity", "script", "ijb88pvali");
             `,
           }}
+        />
+        <script
+          defer
+          data-domain="devlinks.mateusarce.dev"
+          src="https://plausible.io/js/script.js"
         />
       </Head>
       <body className={inter.className}>{children}</body>
