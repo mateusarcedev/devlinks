@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Head from 'next/head';
+import Script from 'next/script'
 
 
 
@@ -33,7 +34,7 @@ export default function RootLayout({ children }) {
         <meta property="og:image:height" content="1600" />
         <meta property="og:image:alt" content="Image preview" />
         <meta property="og:type" content="website" />
-        <script async src="https://analytics.umami.is/script.js" data-website-id="830f9d6c-9dd7-4db6-a4f3-ffda7a1fae26"></script>
+        <Script async src="https://analytics.umami.is/script.js" data-website-id="830f9d6c-9dd7-4db6-a4f3-ffda7a1fae26" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
