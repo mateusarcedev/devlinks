@@ -6,7 +6,7 @@ export default function Home() {
   return (
   <>
       <Navbar/>
-      <main className="bg-background flex flex-col items-center w-full ">
+      <main className="bg-background flex flex-col items-center w-full mb-3">
       <div className="w-4/5 flex justify-center items-center">
       <CategoryBar />
       </div>
