@@ -14,6 +14,14 @@ export default function Home() {
       <div className="w-4/5 flex justify-center items-center mt-4 gap-4 flex-wrap">
       
       <Card 
+      url="https://www.beecrowd.com.br/judge/pt/login"
+      title="BEECROWD" 
+      src="/algos/beecrowd.png" 
+      alt="Imagem do card" 
+      desc="Este é um recurso online gratuito, desenvolvido pelo Google, que oferece exercícios e dicas para ajudar você a se preparar para uma entrevista de emprego em inglês de maneira mais eficiente." 
+      />
+
+      <Card 
       url="https://grow.google/certificates/interview-warmup/?utm_source=news.google.com&utm_medium=referral&utm_campaign=news-sitemap"
       title="Interview Warmup" 
       src="/algos/interviewwarmup.png" 

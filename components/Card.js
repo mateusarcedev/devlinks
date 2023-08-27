@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Card(props) {
   return (
     <Link href={props.url} target="_blank">
-    <div className="bg-white w-72 h-96 rounded-md flex flex-col items-center justify-between p-2">
+    <div className="bg-white w-80 h-[400px] rounded-md flex flex-col items-center justify-between p-2">
       <h1 className="bg-transparent text-2xl">{props.title}</h1>
       <Image 
       className="rounded-md bg-transparent"

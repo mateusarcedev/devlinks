@@ -7,13 +7,13 @@ export default function CategoryBar() {
       <Category url="/apis" title="API's" />
       <Category url="/animations" title="Animações" />
       <Category url="/icons" title="Ícones" />
-      <Category url="https://www.google.com" title="Blogs" />
-      <Category url="https://www.google.com" title="Cores" />
-      <Category url="https://www.google.com" title="Ferramentas" />
-      <Category url="https://www.google.com" title="Fontes" />
-      <Category url="https://www.google.com" title="Ilustrações" />
-      <Category url="https://www.google.com" title="UI" />
-      <Category url="https://www.google.com" title="Cursos" />
+      <Category url="/blogs" title="Blogs" />
+      <Category url="/loading" title="Cores" />
+      <Category url="/loading" title="Ferramentas" />
+      <Category url="/loading" title="Fontes" />
+      <Category url="/loading" title="Ilustrações" />
+      <Category url="/loading" title="UI" />
+      <Category url="/loading" title="Cursos" />
     </div>
   )
 }

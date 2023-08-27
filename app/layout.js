@@ -19,7 +19,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" className='h-full'>
       <Head>
         <meta property="og:title" content="DevLinks" />
         <meta property="og:description" content="um projeto criado para ajudar programadores a encontrar ferramentas úteis para o desenvolvimento de softwares. Aqui você encontrará materiais para desenvolvimento e estudo de frontend, backend e estruturas de dados." />

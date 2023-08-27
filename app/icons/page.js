@@ -78,7 +78,7 @@ export default function Home() {
       />
 
       <Card 
-      url="hhttps://iconpark.oceanengine.com/official"
+      url="https://iconpark.oceanengine.com/official"
       title="IconPark" 
       src="/icons/iconpark.svg" 
       alt="Imagem do card" 
