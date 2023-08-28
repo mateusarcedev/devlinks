@@ -7,11 +7,11 @@ export default function Home() {
   return (
   <div className="h-screen flex flex-col justify-between">
       <Navbar/>
-      <div className="h-full">
+      
       <div className="w-4/5 flex justify-center items-center mx-auto">
       <CategoryBar />
       </div>
-      <main className="bg-background flex flex-col items-center w-full mb-3" >
+      <main className="bg-background flex flex-1 flex-col items-center w-full " >
       <div className="w-4/5 flex justify-center items-center mt-4 gap-4 flex-wrap">
       
       <h1 className="text-[#D9D9D9] text-4xl">Sobre o projeto 🧑🏽‍💻</h1>
@@ -25,8 +25,7 @@ export default function Home() {
       </p>
       </div>
     </main>
-      </div>
-      {/* <Footer /> */}
+      <Footer />
   </div>
   )
 }
