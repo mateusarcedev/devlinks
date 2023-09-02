@@ -5,8 +5,6 @@ Este repositório é um projeto criado para ajudar programadores iniciantes a en
 ## De onde veio a ideia? 💡
 Quando comecei a estudar programação, senti uma grande dificuldade em encontrar materiais de estudo e ferramentas que ajudassem no desenvolvimento. Então decidi criar este repositório, reunindo informações de threads do Twitter, Instagram e outros sites para ajudar tanto programadores novos quanto experientes.
 
-## Frontend
-
 ### Algoritmos e Estrutura de Dados
 - [Interview Warmup](https://grow.google/certificates/interview-warmup/?utm_source=news.google.com&utm_medium=referral&utm_campaign=news-sitemap)
 - [HackerRank](https://www.hackerrank.com/dashboard)
@@ -125,8 +123,3 @@ Quando comecei a estudar programação, senti uma grande dificuldade em encontra
 - [Rocketseat](https://app.rocketseat.com.br/?)
 - [EDX](https://www.edx.org/)
 - [Fundação Estudar](https://conteudos.escoladelideranca.org.br/inicio/)
-
-## Backend
-
-O repositório está sendo atualizado constatemente e em breve terá ótimas ferramentas 
-para desenvolvimento backend.
