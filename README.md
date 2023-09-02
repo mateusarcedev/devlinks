@@ -122,4 +122,3 @@ Quando comecei a estudar programação, senti uma grande dificuldade em encontra
 - [Coding in Public](https://codinginpublic.dev/)
 - [Rocketseat](https://app.rocketseat.com.br/?)
 - [EDX](https://www.edx.org/)
-- [Fundação Estudar](https://conteudos.escoladelideranca.org.br/inicio/)
