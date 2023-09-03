@@ -13,6 +13,7 @@ Quando comecei a estudar programação, senti uma grande dificuldade em encontra
 - [BeeCrowd](https://www.beecrowd.com.br/judge/pt/)
 
 ### APIs
+- [DocAPI](https://docapi.dev)
 - [RapidAPI](https://rapidapi.com/hub)
 - [SVGInject](https://github.com/iconfu/svg-inject)
 - [The Movie DB](https://www.themoviedb.org/)

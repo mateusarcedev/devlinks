@@ -14,6 +14,22 @@ export default function Home() {
       <div className="w-4/5 flex justify-center items-center mt-4 gap-4 flex-wrap">
       
       <Card 
+      url="https://docapi.dev/books/api-do-sistema-solar"
+      title="Crud de Frases - DocAPI" 
+      src="/apis/docapi.png" 
+      alt="Icone do site DocAPI.dev" 
+      desc="Uma API simples para criar, editar, obter e excluir frases. Foi desenvolvida para ensinar os estudantes a realizar integrações de API com um Front-end React. A API não possui autenticação e está disponível gratuitamente." 
+      />
+
+      <Card 
+      url="https://docapi.dev/books/api-do-sistema-solar"
+      title="Sistema Solar - DocAPI" 
+      src="/apis/docapi.png" 
+      alt="Icone do site DocAPI.dev" 
+      desc="Esta API trata de uma lista de planetas e corpos celestes do sistema solar, com o objetivo de ensinar estudantes a fazerem integrações de API em um Front-end React. É uma iniciativa educacional para ajudar os alunos a aprenderem sobre programação e desenvolvimento web. A API não possui autenticação e está disponível gratuitamente." 
+      />
+
+      <Card 
       url="https://dummyjson.com/"
       title="DummyJSON" 
       src="/apis/dummyjson.png" 
