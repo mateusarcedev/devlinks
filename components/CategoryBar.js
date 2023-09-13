@@ -9,7 +9,7 @@ export default function CategoryBar() {
       <Category url="/icons" title="Ícones" />
       <Category url="/blogs" title="Blogs" />
       <Category url="/colors" title="Cores" />
-      <Category url="/loading" title="Ferramentas" />
+      <Category url="/tools" title="Ferramentas" />
       <Category url="/loading" title="Fontes" />
       <Category url="/loading" title="Ilustrações" />
       <Category url="/loading" title="UI" />

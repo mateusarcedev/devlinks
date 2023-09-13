@@ -14,99 +14,131 @@ export default function Home() {
 
       <div className="w-4/5 flex justify-center items-center m-4 gap-4 flex-wrap">      
       <Card 
-      url="https://iconscout.com/"
-      title="Icons Out" 
-      src="/icons/iconsout.ico" 
+      url="https://profile-readme-generator.com/"
+      title="Readme Generator" 
+      src="/tools/readmegenerator.png" 
       alt="Imagem do card" 
-      desc="IconsOut é uma biblioteca de ícones gratuita e de código aberto que oferece uma ampla variedade de ícones vetoriais para uso em projetos de design e desenvolvimento. Os ícones são personalizáveis e podem ser baixados em vários formatos, como SVG, PNG e fontes de ícones." 
+      desc="Fornece modelos para criar arquivos README para o seu perfil do GitHub. Ele oferece uma variedade de modelos pré-projetados que você pode personalizar para mostrar seus projetos, habilidades e interesses de forma visualmente atraente. Pode ser uma ferramenta útil para aprimorar seu perfil do GitHub e torná-lo mais informativo e envolvente para os visitantes." 
       />
 
       <Card 
-      url="https://fontawesome.com/"
-      title="Font Awesome" 
-      src="/icons/fontawesome.ico" 
+      url="https://getwaves.io/"
+      title="Get Waves" 
+      src="/tools/getwaves.png" 
       alt="Imagem do card" 
-      desc="FontAwesome é uma biblioteca de ícones popular e amplamente utilizada, que oferece uma vasta coleção de ícones vetoriais para uso em projetos de design e desenvolvimento web." 
+      desc="Permite gerar ilustrações de ondas personalizadas para uso em projetos de design. Com uma interface simples e intuitiva, você pode ajustar parâmetros como cor, tamanho e forma das ondas para criar gráficos exclusivos." 
       />
 
     <Card 
-    url="https://lordicon.com/"
-      title="LordIcon" 
-      src="/icons/lordicon.png" 
+    url="https://getbootstrap.com/"
+      title="Bootstrap" 
+      src="/tools/bootstrap.png" 
       alt="Imagem do card" 
-      desc="Lordicon é uma biblioteca de animações vetoriais interativas que oferece uma ampla variedade de ícones animados personalizáveis para uso em projetos de design e desenvolvimento web. É possível adicionar animações dinâmicas e envolventes aos ícones." 
+      desc="Oferece um conjunto de ferramentas e recursos para construir sites responsivos de forma rápida e eficiente. Ele fornece templates, componentes, plugins JavaScript e uma arquitetura personalizável utilizando Sass. Além disso, o Bootstrap possui uma documentação abrangente e uma comunidade ativa para suporte e colaboração." 
       />
 
       <Card 
-      url="https://ionic.io/ionicons"
-      title="Ionicons" 
-      src="/icons/ionicons.png" 
+      url="https://select2.org/"
+      title="Select 2" 
+      src="/tools/select2.png" 
       alt="Imagem do card" 
-      desc="É uma biblioteca de ícones vetoriais que oferece uma extensa coleção de ícones prontos para uso. Com uma variedade de estilos e tamanhos, os ícones são altamente personalizáveis e podem ser facilmente integrados em aplicativos e sites para melhorar a experiência do usuário." 
+      desc="Biblioteca JavaScript que oferece uma substituição personalizável para caixas de seleção HTML. Ele fornece recursos avançados, como pesquisa, marcação, suporte a dados remotos e personalização completa." 
       />
 
 <Card 
-    url="https://heroicons.dev/"
-      title="Hero Icons" 
-      src="/icons/heroicons.svg" 
+    url="https://www.sanity.io/"
+      title="Sanity" 
+      src="/tools/sanityio.png" 
       alt="Imagem do card" 
-      desc="Heroicons.dev é uma biblioteca de ícones minimalistas e personalizáveis, projetada para uso em projetos de design e desenvolvimento web. Com uma ampla seleção de ícones em diferentes estilos e tamanhos, o Heroicons.dev oferece uma maneira fácil e rápida de adicionar ícones elegantes e modernos aos seus projetos." 
+      desc="É um CMS moderno e baseado em API. Ele permite que você gerencie seu conteúdo de forma estruturada e reutilizável em qualquer canal. Com o Sanity, você pode definir seus próprios modelos de conteúdo em JavaScript e personalizar a interface de edição com componentes React." 
       />
 
       <Card 
-      url="https://feathericons.com/"
-      title="Feather Icons" 
-      src="/icons/feathericons.png" 
+      url="https://www.tinkercad.com/"
+      title="Tinkercard" 
+      src="/tools/tinkercard.ico" 
       alt="Imagem do card" 
-      desc="Feather Icons é uma biblioteca de ícones minimalistas e leves, perfeita para projetos de design e desenvolvimento web. Com uma ampla variedade de ícones vetoriais, o Feather Icons oferece uma coleção elegante e fácil de usar, com ícones personalizáveis e prontos para serem integrados em seus projetos." 
+      desc="Com o Tinkercad, você pode projetar e simular circuitos eletrônicos, além de criar modelos físicos para impressão 3D. É uma ferramenta versátil e acessível para estudantes, entusiastas de eletrônica e profissionais da área." 
       />
 
 <Card 
-      url="https://thenounproject.com/"
-      title="Noun Icons" 
-      src="/icons/nounicons.png" 
+      url="https://astro.build/"
+      title="Astro" 
+      src="/tools/astrobuild.svg" 
       alt="Imagem do card" 
-      desc="É um site que oferece uma vasta coleção de ícones de alta qualidade para uso em projetos de design. Com uma interface intuitiva, os usuários podem pesquisar e baixar ícones para ilustrar suas criações de forma eficiente." 
+      desc="Astro é um poderoso framework web que permite construir sites de conteúdo rápido, aplicações web dinâmicas e APIs de servidor. Ele oferece uma abordagem centrada no conteúdo, integração perfeita com bibliotecas populares de interface de usuário e uma experiência amigável para desenvolvedores. Com o Astro, você pode criar projetos web escaláveis e performáticos com facilidade." 
       />
 
 <Card 
-    url="https://remixicon.com/"
-      title="Remix Icons" 
-      src="/icons/remixicon.ico" 
+    url="https://threejs.org/"
+      title="Three JS" 
+      src="/tools/threejs.ico" 
       alt="Imagem do card" 
-      desc="Com uma sintaxe simples e intuitiva, os desenvolvedores podem facilmente incorporar ícones em suas aplicações para melhorar a experiência do usuário. É uma ferramenta valiosa para agilizar o desenvolvimento de interfaces visualmente atraentes." 
+      desc="Uma biblioteca JavaScript utilizada para criar gráficos 3D interativos no navegador. Com o Three.js, é possível criar cenas, animações e efeitos visuais impressionantes. É uma ferramenta popular entre desenvolvedores e artistas que desejam explorar o potencial da renderização 3D na web." 
       />
 
       <Card 
-      url="https://iconpark.oceanengine.com/official"
-      title="IconPark" 
-      src="/icons/iconpark.svg" 
+      url="https://www.useblackbox.io/"
+      title="Blackbox" 
+      src="/tools/blackbox.svg" 
       alt="Imagem do card" 
-      desc="O ByteDance IconPark é uma biblioteca de ícones de código aberto desenvolvida pela ByteDance. Com uma ampla variedade de ícones disponíveis, o IconPark oferece aos desenvolvedores uma maneira fácil e conveniente de adicionar ícones estilizados aos seus aplicativos e sites." 
+      desc="Plataforma de assistência de codificação alimentada por IA que permite codificar 10 vezes mais rápido e melhor. Ele oferece recursos como autocompletar, sugestões automatizadas de código, geração de código com base em perguntas, otimização de erros, rastreamento de versão, geração automática de README e mensagens de commit inteligentes." 
       />
 
 <Card 
-    url="https://www.flaticon.com/"
-      title="FlatIcon" 
-      src="/icons/flaticon.ico" 
+    url="https://headlessui.com/"
+      title="Headless UI" 
+      src="/tools/headlessui.ico" 
       alt="Imagem do card" 
-      desc="O Flaticon é um site que oferece uma ampla variedade de ícones vetoriais gratuitos e premium. Com uma interface intuitiva e recursos de pesquisa avançados, o Flaticon facilita a localização e o download de ícones personalizáveis." 
+      desc="O Headless UI é uma biblioteca de componentes de interface de usuário completamente sem estilo, projetados para serem totalmente acessíveis e integrarem perfeitamente com o Tailwind CSS. Ele oferece uma solução flexível e personalizável para criar interfaces bonitas e acessíveis em seus projetos web." 
       />
 
       <Card 
-      url="https://phosphoricons.com/"
-      title="Phoshor Icons" 
-      src="/icons/phosphoricons.ico" 
+      url="https://ariakit.org/"
+      title="Aria Kit" 
+      src="/tools/ariakit.png" 
       alt="Imagem do card" 
-      desc="Com um design moderno e consistente, os ícones do Phosphor Icons são altamente personalizáveis e podem ser facilmente integrados em projetos de software. É uma escolha popular entre os desenvolvedores para adicionar elementos visuais atraentes às interfaces de usuário." 
+      desc="O Ariakit é uma biblioteca de código aberto que oferece componentes e hooks de nível inferior para construir aplicativos web acessíveis com React. Ele é projetado para ajudar na criação de sistemas de design, bibliotecas de componentes e aplicativos web acessíveis." 
       />
 
 <Card 
-      url="https://react-icons.github.io/react-icons/"
-      title="React Icons" 
-      src="/icons/reacticons.png" 
+      url="https://webcode.tools/"
+      title="Webcode tools" 
+      src="/tools/webcode.webp" 
       alt="Imagem do card" 
-      desc="O React Icons é uma biblioteca que fornece um conjunto de ícones populares para uso em aplicativos React. Ele permite que os desenvolvedores adicionem facilmente ícones a seus componentes, melhorando a experiência do usuário. É uma ferramenta útil para criar interfaces intuitivas e visualmente atraentes." 
+      desc="Plataforma que oferece geradores de código para desenvolvedores, incluindo geradores de CSS altamente personalizáveis, geradores de elementos HTML, geradores de dados estruturados JSON-LD para melhorar o SEO do seu site, geradores de meta tags, geradores de Open Graph meta tags, geradores de Twitter Cards e geradores de arquivos robots.txt. " 
+      />
+
+<Card 
+      url="https://swimm.io/"
+      title="Swimm IO" 
+      src="/tools/swimmio.webp" 
+      alt="Imagem do card" 
+      desc="Facilita a documentação interna de código e o compartilhamento de conhecimento entre equipes de desenvolvimento. Com recursos como geração automática de documentação, integração com IDEs e plugins para CI, o Swimm ajuda a acelerar o desenvolvimento e a manter a documentação atualizada. " 
+      />
+
+<Card 
+      url="https://hygraph.com/"
+      title="Hygraph" 
+      src="/tools/hygraph.ico" 
+      alt="Imagem do card" 
+      desc="O Hygraph é uma plataforma de análise de dados baseada em GraphQL. Ele permite que você consulte e visualize dados de forma eficiente, fornecendo uma interface intuitiva para explorar e analisar dados complexos. Com recursos como consultas flexíveis, visualizações interativas e colaboração em tempo real." 
+      />
+
+<Card 
+      url="https://www.radix-ui.com/"
+      title="Radix UI" 
+      src="/tools/radixui.png" 
+      alt="Imagem do card" 
+      desc="O Radix UI é uma biblioteca de componentes de código aberto otimizada para desenvolvimento rápido, fácil manutenção e acessibilidade. Basta importar e usar, sem necessidade de configuração. Ele oferece uma ampla gama de componentes prontos para uso, facilitando a criação de interfaces de usuário bonitas e funcionais." 
+      />
+
+<Card 
+      url="Tailwind UI"
+      title="Tailwind UI" 
+      src="/tools/tailwindui.ico" 
+      alt="Imagem do card" 
+      desc="O Tailwind UI é uma biblioteca de componentes e templates prontos para uso, projetados com expertise e beleza, para acelerar o desenvolvimento de projetos com Tailwind CSS. É uma ferramenta essencial para criar interfaces bonitas e responsivas de forma rápida e eficiente." 
       />
 
       </div>
