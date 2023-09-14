@@ -14,7 +14,7 @@ export default function Home() {
       <h1 className="text-white text-3xl">Aguarde! Estamos trazendo mais ferramentas para você.</h1>
       <div className="flex">
       <Image
-      src="/programmer.svg"
+      src="/utils/rocket.png"
       width={500}
       height={500}
       alt="Picture of the author"
