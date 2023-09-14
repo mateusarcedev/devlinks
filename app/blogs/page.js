@@ -12,7 +12,7 @@ export default function Home() {
       <CategoryBar />
       </div>
 
-      <div className="w-4/5 flex justify-center items-center m-4 gap-4 flex-wrap">      
+      <div className="w-4/5 flex justify-center items-center m-4 gap-4 flex-wrap mb-5">      
       <Card 
       url="https://medium.com/"
       title="Medium" 

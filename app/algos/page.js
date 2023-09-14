@@ -11,7 +11,7 @@ export default function Home() {
       <div className="w-4/5 flex justify-center items-center">
       <CategoryBar />
       </div>
-      <div className="w-4/5 flex justify-center items-center mt-4 gap-4 flex-wrap">
+      <div className="w-4/5 flex justify-center items-center mt-4 gap-4 flex-wrap mb-5">
       
       <Card 
       url="https://www.beecrowd.com.br/judge/pt/login"
