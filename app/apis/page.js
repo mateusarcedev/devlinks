@@ -53,6 +53,22 @@ export default function Home() {
       desc="A TheMovieDB é uma plataforma online que fornece informações sobre filmes, séries de TV e celebridades. Os usuários podem pesquisar e descobrir detalhes sobre seus filmes favoritos, como sinopse, elenco e classificações. É útil para amantes do cinema se manterem atualizados sobre o mundo do entretenimento." 
       />
 
+<Card 
+      url="https://docapi.dev/books/api-do-sistema-solar"
+      title="Crud de Frases" 
+      src="/apis/docapi.png" 
+      alt="Icone do site DocAPI.dev" 
+      desc="Uma API simples para criar, editar, obter e excluir frases. Foi desenvolvida para ensinar os estudantes a realizar integrações de API com um Front-end React. A API não possui autenticação e está disponível gratuitamente." 
+      />
+
+      <Card 
+      url="https://docapi.dev/books/api-do-sistema-solar"
+      title="Sistema Solar" 
+      src="/apis/docapi.png" 
+      alt="Icone do site DocAPI.dev" 
+      desc="Esta API trata de uma lista de planetas e corpos celestes do sistema solar, com o objetivo de ensinar estudantes a fazerem integrações de API em um Front-end React. É uma iniciativa educacional para ajudar os alunos a aprenderem sobre programação e desenvolvimento web. A API não possui autenticação e está disponível gratuitamente." 
+      />
+
       </div>
     </main>
   </>
