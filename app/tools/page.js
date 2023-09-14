@@ -134,11 +134,19 @@ export default function Home() {
       />
 
 <Card 
-      url="Tailwind UI"
+      url="https://tailwindui.com/components"
       title="Tailwind UI" 
       src="/tools/tailwindui.ico" 
       alt="Imagem do card" 
       desc="O Tailwind UI é uma biblioteca de componentes e templates prontos para uso, projetados com expertise e beleza, para acelerar o desenvolvimento de projetos com Tailwind CSS. É uma ferramenta essencial para criar interfaces bonitas e responsivas de forma rápida e eficiente." 
+      />
+
+<Card 
+      url="https://bohr.io/"
+      title="Bohr IO" 
+      src="/tools/borhio.ico" 
+      alt="Imagem do card" 
+      desc="O bohr.io é uma plataforma de desenvolvimento e implantação integrada ao GitHub, projetada para ajudar os desenvolvedores a liberarem todo o seu potencial. Eles oferecem recursos básicos gratuitos, planos pagos para projetos comerciais e suporte à comunidade por meio de seu servidor Discord." 
       />
 
       </div>

@@ -14,6 +14,7 @@ export default function CategoryBar() {
       <Category url="/loading" title="Ilustrações" />
       <Category url="/loading" title="UI" />
       <Category url="/loading" title="Cursos" />
+      <Category url="/loading" title="Portifólios" />
     </div>
   )
 }
