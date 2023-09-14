@@ -54,7 +54,7 @@ export default function Home() {
       />
 
 <Card 
-      url="https://docapi.dev/books/api-do-sistema-solar"
+      url="https://docapi.dev/books/api-de-frases"
       title="Crud de Frases" 
       src="/apis/docapi.png" 
       alt="Icone do site DocAPI.dev" 
