@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="flex items-center justify-center gap-5">
       <Link target="_blank" href="https://github.com/mateusarcedev/devlinks"> 
       <Image
-      src="/github.svg"
+      src="/utils/github.svg"
       width={35}
       height={35}
       alt="Github logo"
