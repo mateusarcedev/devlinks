@@ -109,6 +109,47 @@ export default function Home() {
       desc="O React Icons é uma biblioteca que fornece um conjunto de ícones populares para uso em aplicativos React. Ele permite que os desenvolvedores adicionem facilmente ícones a seus componentes, melhorando a experiência do usuário. É uma ferramenta útil para criar interfaces intuitivas e visualmente atraentes." 
       />
 
+<Card 
+      url="https://iconoir.com/"
+      title="Iconoir" 
+      src="/icons/iconoir.ico" 
+      alt="Imagem do card" 
+      desc="O Iconoir é uma biblioteca de ícones que oferece uma ampla variedade de ícones para uso em projetos de design. É uma ferramenta útil para designers e desenvolvedores que desejam adicionar ícones estilizados e modernos em seus projetos. O site permite que você faça o download dos ícones em diferentes formatos." 
+      />
+
+<Card 
+      url="https://tablericons.com/"
+      title="Tabler Icons" 
+      src="/icons/tableicons.png" 
+      alt="Imagem do card" 
+      desc="O Tabler Icons é um site que oferece mais de 1400 ícones SVG gratuitos e de código aberto. É uma biblioteca útil para designers e desenvolvedores que desejam adicionar ícones estilizados em seus projetos. Os ícones são criados por Codecalm e Paweł." 
+      />
+
+<Card 
+      url="https://iconsvg.xyz/"
+      title="Icon SVG" 
+      src="/icons/iconsvg.png" 
+      alt="Imagem do card" 
+      desc="O ICONSVG é um site que oferece ícones SVG personalizáveis e rápidos para projetos. É uma ferramenta útil para designers e desenvolvedores que desejam adicionar ícones escaláveis e personalizados em seus projetos. O site requer a ativação do JavaScript para funcionar corretamente." 
+      />
+
+<Card 
+      url="https://shape.so/"
+      title="Shape SO" 
+      src="/icons/shape.png" 
+      alt="Imagem do card" 
+      desc="O Shape é um site que oferece uma variedade de formas personalizáveis para uso em projetos de design. É uma ferramenta útil para designers e desenvolvedores que desejam adicionar formas estilizadas e modernas em seus projetos. O site permite que você personalize as formas de acordo com suas necessidades." 
+      />
+
+<Card 
+      url="https://akveo.github.io/eva-icons/#/"
+      title="Eva Icons" 
+      src="/icons/evaicons.ico" 
+      alt="Imagem do card" 
+      desc="O Eva Icons é um site que oferece uma coleção de ícones de interface de usuário de código aberto, cuidadosamente projetados para ações e itens comuns. É uma biblioteca útil para designers e desenvolvedores que desejam adicionar ícones estilizados e modernos em seus projetos. O site permite que você explore e utilize os ícones de forma fácil e gratuita." 
+      />
+
+
       </div>
     </main>
   </>
