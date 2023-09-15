@@ -16,7 +16,7 @@ export default function Home() {
       
       <h1 className="text-[#D9D9D9] text-4xl">Sobre o projeto 🧑🏽‍💻</h1>
       <p className="text-[#D9D9D9] text-xl">
-      Este repositório é um projeto criado para ajudar programadores iniciantes a encontrar ferramentas úteis para o desenvolvimento de softwares. Aqui você encontrará materiais para desenvolvimento frontend, backend e estudo de estruturas de dados. Sinta-se livre para contribuir.
+      Este é um projeto criado para ajudar programadores iniciantes a encontrar ferramentas úteis para o desenvolvimento de softwares. Aqui você encontrará materiais para desenvolvimento frontend, backend e estudo de estruturas de dados. Sinta-se livre para contribuir.
       </p>
 
       <h1 className="text-[#D9D9D9] text-4xl">De onde veio a ideia? 💡</h1>
