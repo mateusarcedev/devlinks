@@ -119,7 +119,7 @@ export default function Home() {
       />
 
 <Card 
-      url="hhttps://developer.riotgames.com/apis"
+      url="https://developer.riotgames.com/apis"
       title="Riot" 
       src="/apis/riot.png" 
       alt="Imagem do card" 
@@ -127,7 +127,7 @@ export default function Home() {
       />
 
       <Card 
-      url="hhttps://unsplash.com/developers"
+      url="https://unsplash.com/developers"
       title="Unplash API" 
       src="/apis/unplash.png" 
       alt="Imagem do card" 
