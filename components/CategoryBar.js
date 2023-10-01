@@ -11,7 +11,7 @@ export default function CategoryBar() {
       <Category url="/colors" title="Cores" />
       <Category url="/tools" title="Ferramentas" />
       <Category url="/fonts" title="Fontes" />
-      <Category url="/loading" title="Ilustrações" />
+      <Category url="/ilustrations" title="Ilustrações" />
       <Category url="/loading" title="UI" />
       <Category url="/loading" title="Cursos" />
       <Category url="/loading" title="Portifólios" />
