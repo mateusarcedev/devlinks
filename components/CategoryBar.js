@@ -13,8 +13,7 @@ export default function CategoryBar() {
       <Category url="/fonts" title="Fontes" />
       <Category url="/ilustrations" title="Ilustrações" />
       <Category url="/inspirationUI" title="UI" />
-      <Category url="/loading" title="Cursos" />
-      <Category url="/loading" title="Portifólios" />
+      <Category url="/portfolios" title="Portifólios" />
     </div>
   )
 }
