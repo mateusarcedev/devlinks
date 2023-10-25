@@ -76,15 +76,6 @@ export default function Home() {
       alt="Imagem do card" 
       desc="Desde o início da jornada dele como designer freelancer há mais de 11 anos, ele tem realizado trabalhos remotos para agências, prestado consultoria para startups e colaborado com pessoas talentosas para criar produtos digitais tanto para uso empresarial quanto para o consumidor." 
       />
-
-<Card 
-      url="https://zenorocha.com/"
-      title="Zeno Rocha" 
-      src="/portfolios/zenorocha.svg" 
-      alt="Imagem do card" 
-      desc="Ele adora o modo escuro, código aberto e projetos paralelos. Quando não está trabalhando, gosta de correr, assistir filmes e comer queijo." 
-      />
-
       </div>
     </main>
   </>
