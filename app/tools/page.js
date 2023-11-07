@@ -149,6 +149,38 @@ export default function Home() {
       desc="O bohr.io é uma plataforma de desenvolvimento e implantação integrada ao GitHub, projetada para ajudar os desenvolvedores a liberarem todo o seu potencial. Eles oferecem recursos básicos gratuitos, planos pagos para projetos comerciais e suporte à comunidade por meio de seu servidor Discord." 
       />
 
+<Card 
+      url="https://mintlify.com/"
+      title="Mintlify" 
+      src="/tools/mintlify.ico" 
+      alt="Imagem do card" 
+      desc="Mintlify é uma plataforma que ajuda você a criar uma documentação bonita e eficaz para seus usuários. Seja você um desenvolvedor, gerente de produto ou profissional de marketing, você pode usar o Mintlify para criar e manter documentação que converta usuários." 
+      />
+
+<Card 
+      url="https://books.goalkicker.com/"
+      title="Notas de programação para profissionais" 
+      src="/tools/freebooksnotes.ico" 
+      alt="Imagem do card" 
+      desc="Site com vários livros de anotações de diferentes tecnologiais(em inglês)." 
+      />
+
+<Card 
+      url="https://rxresu.me/pt-BR"
+      title="Currículo reativo" 
+      src="/tools/reativeresume.ico" 
+      alt="Imagem do card" 
+      desc="É um gerador de currículos, gratuito e de código aberto, desenvolvido para facilitar as tarefas tediosas de criação, atualização e divulgação de seu currículo. Este aplicativo possibilita a criação de múltiplos currículos, que podem ser compartilhados com recrutadores ou amigos com um link exclusivo ou impressos como PDF. Tudo isso de graça, sem anúncios, sem rastreamento, mantendo a integridade e privacidade dos seus dados." 
+      />
+
+<Card 
+      url="https://checkio.org/"
+      title="CheckIO" 
+      src="/tools/checkio.png" 
+      alt="Imagem do card" 
+      desc="Jogos de codificação para programadores iniciantes e avançados onde você pode melhorar suas habilidades de codificação resolvendo desafios envolventes e tarefas divertidas usando Python e TypeScript" 
+      />
+
       </div>
     </main>
   </>
