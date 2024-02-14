@@ -109,6 +109,14 @@ export default function Home() {
       desc="GeeksforGeeks é um site de aprendizado e prática de programação. Ele oferece tutoriais, artigos e desafios para ajudar os desenvolvedores a aprimorar suas habilidades. É uma plataforma popular entre a comunidade de programadores." 
       />
 
+      <Card 
+      url="https://insights.ionited.io/"
+      title="Insights" 
+      src="/blogs/insights.svg" 
+      alt="Imagem do card" 
+      desc="Aprenda e ensine de tudo, a rede social direto ao ponto. Aprenda e ensine assuntos, como: HTML, CSS, JavaScript, TypeScript, Node.js, MySQL, MongoDB, Linux, Ubuntu, finanças, investimentos e muito mais!" 
+      />
+
       </div>
     </main>
   </>
