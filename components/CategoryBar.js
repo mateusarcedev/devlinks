@@ -2,7 +2,7 @@ import Category from "./Category";
 
 export default function CategoryBar() {
   return (
-    <div className="bg-white h-[105] rounded-lg flex items-center justify-between p-5 gap-2 overflow-x-auto">
+    <div className="bg-white w-full h-auto rounded-lg flex items-center justify-between p-5 gap-2 overflow-x-auto">
       <Category url="/algos" title="Algoritmos" />
       <Category url="/apis" title="API's" />
       <Category url="/animations" title="Animações" />
@@ -15,5 +15,5 @@ export default function CategoryBar() {
       <Category url="/inspirationUI" title="UI" />
       <Category url="/portfolios" title="Portifólios" />
     </div>
-  )
+  );
 }
