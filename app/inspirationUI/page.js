@@ -16,7 +16,7 @@ export default function Home() {
       <Card 
       url="https://uijar.com/"
       title="UI Jar" 
-      src="/inspirationUI/uljar.ico" 
+      src="/inspirationUI/uijar.jpg" 
       alt="Imagem do card" 
       desc="É uma plataforma que oferece uma coleção de designs de interface de usuário prontos para uso. Ele fornece inspiração e recursos para designers e desenvolvedores criarem interfaces intuitivas e atraentes. O site valoriza a importância do design como uma linguagem, não apenas um estilo passageiro." 
       />    
@@ -40,7 +40,7 @@ export default function Home() {
       <Card 
       url="https://www.lapa.ninja/"
       title="Lapa Ninja" 
-      src="/inspirationUI/lapaninja.ico" 
+      src="/inspirationUI/lapaninja.png" 
       alt="Imagem do card" 
       desc="Oferece uma coleção de recursos gratuitos para designers, incluindo modelos de sites, elementos de design e inspiração. Ele é conhecido por sua variedade de modelos de páginas de destino e designs criativos, sendo uma fonte valiosa para profissionais de design em busca de inspiração e ferramentas úteis. Vale a pena explorar para quem trabalha com design web." 
       />
@@ -48,7 +48,7 @@ export default function Home() {
 <Card 
       url="https://www.behance.net/"
       title="Behance" 
-      src="/inspirationUI/behance.ico" 
+      src="/inspirationUI/behance.png" 
       alt="Imagem do card" 
       desc="Destaca o trabalho de designers, artistas e criativos de várias disciplinas. Ela permite aos profissionais exibirem seus portfólios, receber feedback e se conectar com outros membros da comunidade. Behance é amplamente reconhecido como uma vitrine global para talentos criativos e uma fonte de inspiração para projetos criativos." 
       />
@@ -80,7 +80,7 @@ export default function Home() {
       <Card 
       url="https://dribbble.com/"
       title="Dribbble" 
-      src="/inspirationUI/dribbble.ico" 
+      src="/inspirationUI/dribbble.png" 
       alt="Imagem do card" 
       desc="Renomada comunidade online para designers, onde profissionais compartilham seus projetos e trabalhos criativos. É uma plataforma que oferece inspiração, networking e feedback para designers gráficos, de produtos e digitais. Muitos designers utilizam o Dribbble para exibir seu portfólio e colaborar com outros membros da comunidade." 
       />

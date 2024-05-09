@@ -80,7 +80,7 @@ export default function Home() {
       <Card 
       url="https://api.nasa.gov/"
       title="NASA API" 
-      src="/apis/nasa.ico" 
+      src="/apis/nasa.png" 
       alt="Imagem do card" 
       desc="O objetivo deste site é tornar os dados da NASA, incluindo imagens, facilmente acessíveis para desenvolvedores de aplicativos. Este catálogo se concentra em APIs amplamente úteis e de fácil utilização e não inclui todas as APIs da NASA." 
       />
@@ -113,7 +113,7 @@ export default function Home() {
       <Card 
       url="https://developer.nytimes.com/"
       title="NY Times" 
-      src="/apis/nytimes.ico" 
+      src="/apis/nytimes.png" 
       alt="Icone do site DocAPI.dev" 
       desc="O site do Developer da New York Times oferece acesso a APIs e recursos para desenvolvedores interessados em utilizar dados e conteúdo do jornal. É uma plataforma que permite criar aplicativos, extrair informações e explorar os dados do NY Times de forma programática." 
       />
@@ -137,7 +137,7 @@ export default function Home() {
     <Card 
     url="https://deckofcardsapi.com/"
       title="Deck of cards" 
-      src="/apis/deckofcards.ico" 
+      src="/apis/deckofcards.png" 
       alt="Imagem do card" 
       desc="O site Deck of Cards API fornece uma API para acessar um baralho de cartas virtual. Os desenvolvedores podem usar essa API para criar jogos de cartas, aplicativos de apostas e outras aplicações relacionadas a cartas. É uma ferramenta útil para desenvolvedores que precisam de funcionalidades de baralho de cartas em seus projetos." 
       />
@@ -145,7 +145,7 @@ export default function Home() {
       <Card 
       url="https://www.football-data.org/"
       title="Football Data" 
-      src="/apis/footballdata.png" 
+      src="/apis/footballdata.jpg" 
       alt="Imagem do card" 
       desc="O site Football Data API fornece uma API amigável para desenvolvedores com dados e estatísticas de futebol, como placares ao vivo, tabelas, escalações e muito mais. É fácil de integrar e usar, com acesso gratuito às principais competições. Para necessidades mais avançadas, há planos pagos disponíveis." 
       />
@@ -153,7 +153,7 @@ export default function Home() {
 <Card 
       url="https://developer.spotify.com/"
       title="Spotify API" 
-      src="/apis/spotify.ico" 
+      src="/apis/spotify.png" 
       alt="Imagem do card" 
       desc="O site Developer Spotify oferece uma plataforma para desenvolvedores construírem aplicativos e integrações com a vasta biblioteca de músicas e podcasts do Spotify. Os desenvolvedores podem acessar tutoriais e APIs para criar recursos como recomendações de músicas, playlists personalizadas e reprodução de áudio." 
       />
@@ -185,7 +185,7 @@ export default function Home() {
       <Card 
       url="https://developer.clashofclans.com/#/"
       title="Clash of Clans" 
-      src="/apis/clashofclans.ico" 
+      src="/apis/clashofclans.webp" 
       alt="Imagem do card" 
       desc="É a página oficial da API do Clash of Clans, fornecendo recursos para desenvolvedores. Ele permite que os desenvolvedores acessem dados e funcionalidades do jogo para criar aplicativos e integrações personalizadas." 
       />
@@ -210,7 +210,7 @@ export default function Home() {
 <Card 
       url="https://fortnitetracker.com/site-api"
       title="Fortnite API" 
-      src="/apis/fortnite.ico" 
+      src="/apis/fortnite.png" 
       alt="Icone do site DocAPI.dev" 
       desc="Fornece uma API gratuita para desenvolvedores obterem informações do jogo Fortnite. É uma ótima ferramenta para criar bots, ferramentas e projetos de pesquisa relacionados ao Fortnite. Eles possuem diretrizes de uso, como limite de solicitações e autenticação por chave de API." 
       />

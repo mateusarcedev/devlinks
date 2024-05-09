@@ -89,7 +89,7 @@ return (
 <Card 
       url="https://culrs.com/"
       title="Curls" 
-      src="/colors/curls.png" 
+      src="/colors/curls.svg" 
       alt="Imagem do card" 
       desc="Este site oferece diversas paletas de cores monocromáticas com uma ampla gama de tons de uma única cor." 
       />

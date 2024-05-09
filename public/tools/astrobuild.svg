@@ -22,7 +22,7 @@
 
     @media (prefers-color-scheme: dark) {
       g {
-        fill: #FFF;
+        fill: #000;
       }
     }
   </style>

@@ -16,7 +16,7 @@ export default function Home() {
       <Card 
       url="https://blush.design/pt"
       title="Blush Design" 
-      src="/ilustrations/blush.png" 
+      src="/ilustrations/blush.svg" 
       alt="Imagem do card" 
       desc="Oferece uma variedade de ilustrações personalizáveis para designers e criativos. Ele facilita a criação de gráficos únicos e visualmente atraentes." 
       />
@@ -32,7 +32,7 @@ export default function Home() {
     <Card 
     url="https://storyset.com/"
       title="Storyset" 
-      src="/ilustrations/storyset.webp" 
+      src="/ilustrations/storyset.png" 
       alt="Imagem do card" 
       desc="Oferece uma ampla seleção de ilustrações e elementos gráficos vetoriais gratuitos para uso em projetos criativos, como sites e apresentações. É uma valiosa fonte de recursos visuais de alta qualidade." 
       />
@@ -40,7 +40,7 @@ export default function Home() {
       <Card 
       url="https://undraw.co/illustrations"
       title="Undraw" 
-      src="/ilustrations/undraw.ico" 
+      src="/ilustrations/undraw.png" 
       alt="Imagem do card" 
       desc="Disponibiliza uma extensa coleção de ilustrações vetoriais de alta qualidade, totalmente gratuitas para uso em projetos pessoais e comerciais. Essas ilustrações são altamente personalizáveis e versáteis." 
       />
@@ -64,7 +64,7 @@ export default function Home() {
       <Card 
       url="https://www.pexels.com/pt-br/"
       title="Pexels" 
-      src="/ilustrations/pexels.ico" 
+      src="/ilustrations/pexels.jpg" 
       alt="Imagem do card" 
       desc="É uma plataforma que oferece uma vasta coleção de fotos e vídeos de alta qualidade, gratuitos para uso em projetos pessoais e comerciais, sem a necessidade de atribuição. É uma valiosa fonte de recursos visuais para designers e criativos." 
       />
@@ -80,7 +80,7 @@ export default function Home() {
       <Card 
       url="https://www.freeimages.com/"
       title="Free Images" 
-      src="/ilustrations/freeimages.png" 
+      src="/ilustrations/freeimages.svg" 
       alt="Imagem do card" 
       desc="É uma plataforma que fornece uma ampla seleção de imagens gratuitas para uso em projetos pessoais e comerciais. Ele oferece uma vasta biblioteca de fotos de alta qualidade para designers e criativos." 
       />
@@ -121,7 +121,7 @@ export default function Home() {
 
 <Card 
       url="https://iconscout.com/lotties"
-      title="Icons Out" 
+      title="IconScout" 
       src="/ilustrations/iconsout.png" 
       alt="Imagem do card" 
       desc="Oferece uma biblioteca de animações Lottie para melhorar a experiência do usuário em aplicativos e sites. Essas animações podem ser facilmente integradas em projetos digitais para adicionar interatividade e dinamismo." 
@@ -154,7 +154,7 @@ export default function Home() {
 <Card 
       url="https://www.ls.graphics/illustrations"
       title="LS Graphics" 
-      src="/ilustrations/wrrooom.webp" 
+      src="/ilustrations/lsgraphics.png" 
       alt="Imagem do card" 
       desc="Oferece uma coleção de ilustrações vetoriais de alta qualidade para uso em projetos criativos e design. Suas ilustrações são altamente personalizáveis e adequadas para uma variedade de aplicações." 
       />

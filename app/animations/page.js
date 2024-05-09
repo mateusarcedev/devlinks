@@ -16,7 +16,7 @@ export default function Home() {
       <Card 
       url="https://scrollrevealjs.org/"
       title="ScrollReveal" 
-      src="/animations/scroolreveal.ico" 
+      src="/animations/scrollreveal.png" 
       alt="Imagem do card" 
       desc="ScrollReveal.js é uma biblioteca JavaScript que permite criar animações de scroll personalizadas em elementos da página. Ela facilita a revelação de elementos à medida que o usuário faz scroll na página." 
       />
@@ -40,7 +40,7 @@ export default function Home() {
       <Card 
       url="https://animate.style/"
       title="Animate CSS" 
-      src="/animations/animatecss.ico" 
+      src="/animations/animatecss.png" 
       alt="Imagem do card" 
       desc="Uma biblioteca de animações CSS prontas para uso. Fácil de implementar e personalizar. Suporta a preferência de redução de movimento do usuário." 
       />
@@ -48,7 +48,7 @@ export default function Home() {
 <Card 
       url="https://animejs.com/"
       title="Anime JS" 
-      src="/animations/animejs.png" 
+      src="/animations/animejs.svg" 
       alt="Imagem do card" 
       desc="Anime.js é uma biblioteca de animação JavaScript leve e poderosa, com suporte para propriedades CSS, SVG, atributos DOM e objetos JavaScript. Possui uma API simples de usar e oferece recursos como animações em cascata, transformações CSS em camadas e controle preciso de tempo e eventos." 
       />
@@ -80,7 +80,7 @@ export default function Home() {
 <Card 
       url="https://greensock.com/"
       title="Green Sock" 
-      src="/animations/greensock.ico" 
+      src="/animations/greensock.png" 
       alt="Imagem do card" 
       desc="É uma biblioteca JavaScript poderosa para animações na web, oferecendo uma ampla gama de recursos e plugins para criar animações suaves e de alto desempenho. O site fornece produtos, documentação, exemplos e suporte para ajudar os desenvolvedores a criar animações impressionantes." 
       />
@@ -96,7 +96,7 @@ export default function Home() {
 <Card 
       url="https://mattboldt.com/demos/typed-js/"
       title="Typed JS" 
-      src="/animations/typedjs.ico" 
+      src="/animations/typedjs.png" 
       alt="Imagem do card" 
       desc="Biblioteca JavaScript que permite criar animações de digitação de texto de forma fácil e personalizada. Com uma simples configuração, é possível simular o efeito de digitação em elementos HTML. É uma ferramenta útil para adicionar interatividade e dinamismo ao conteúdo textual em páginas da web." 
       />
@@ -112,7 +112,7 @@ export default function Home() {
 <Card 
       url="https://vincentgarreau.com/particles.js/"
       title="Particle JS" 
-      src="/animations/particlejs.ico" 
+      src="/animations/particlejs.webp" 
       alt="Imagem do card" 
       desc="É uma biblioteca JavaScript leve para criar efeitos de partículas animadas. Ela oferece uma maneira fácil de adicionar elementos de partículas interativas e personalizáveis a sites e aplicativos." 
       />

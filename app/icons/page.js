@@ -15,16 +15,16 @@ export default function Home() {
       <div className="w-4/5 flex justify-center items-center m-4 gap-4 flex-wrap mb-5">      
       <Card 
       url="https://iconscout.com/"
-      title="Icons Out" 
-      src="/icons/iconsout.ico" 
+      title="IconScout" 
+      src="/icons/iconsout.png" 
       alt="Imagem do card" 
-      desc="IconsOut é uma biblioteca de ícones gratuita e de código aberto que oferece uma ampla variedade de ícones vetoriais para uso em projetos de design e desenvolvimento. Os ícones são personalizáveis e podem ser baixados em vários formatos, como SVG, PNG e fontes de ícones." 
+      desc="IconScout é uma biblioteca de ícones gratuita e de código aberto que oferece uma ampla variedade de ícones vetoriais para uso em projetos de design e desenvolvimento. Os ícones são personalizáveis e podem ser baixados em vários formatos, como SVG, PNG e fontes de ícones." 
       />
 
       <Card 
       url="https://fontawesome.com/"
       title="Font Awesome" 
-      src="/icons/fontawesome.ico" 
+      src="/icons/fontawesome.png" 
       alt="Imagem do card" 
       desc="FontAwesome é uma biblioteca de ícones popular e amplamente utilizada, que oferece uma vasta coleção de ícones vetoriais para uso em projetos de design e desenvolvimento web." 
       />
@@ -72,7 +72,7 @@ export default function Home() {
 <Card 
     url="https://remixicon.com/"
       title="Remix Icons" 
-      src="/icons/remixicon.ico" 
+      src="/icons/remixicon.webp" 
       alt="Imagem do card" 
       desc="Com uma sintaxe simples e intuitiva, os desenvolvedores podem facilmente incorporar ícones em suas aplicações para melhorar a experiência do usuário. É uma ferramenta valiosa para agilizar o desenvolvimento de interfaces visualmente atraentes." 
       />
@@ -88,7 +88,7 @@ export default function Home() {
 <Card 
     url="https://www.flaticon.com/"
       title="FlatIcon" 
-      src="/icons/flaticon.ico" 
+      src="/icons/flaticon.png" 
       alt="Imagem do card" 
       desc="O Flaticon é um site que oferece uma ampla variedade de ícones vetoriais gratuitos e premium. Com uma interface intuitiva e recursos de pesquisa avançados, o Flaticon facilita a localização e o download de ícones personalizáveis." 
       />
@@ -96,7 +96,7 @@ export default function Home() {
       <Card 
       url="https://phosphoricons.com/"
       title="Phoshor Icons" 
-      src="/icons/phosphoricons.ico" 
+      src="/icons/phosphoricons.png" 
       alt="Imagem do card" 
       desc="Com um design moderno e consistente, os ícones do Phosphor Icons são altamente personalizáveis e podem ser facilmente integrados em projetos de software. É uma escolha popular entre os desenvolvedores para adicionar elementos visuais atraentes às interfaces de usuário." 
       />
@@ -112,7 +112,7 @@ export default function Home() {
 <Card 
       url="https://iconoir.com/"
       title="Iconoir" 
-      src="/icons/iconoir.ico" 
+      src="/icons/iconoir.png" 
       alt="Imagem do card" 
       desc="O Iconoir é uma biblioteca de ícones que oferece uma ampla variedade de ícones para uso em projetos de design. É uma ferramenta útil para designers e desenvolvedores que desejam adicionar ícones estilizados e modernos em seus projetos. O site permite que você faça o download dos ícones em diferentes formatos." 
       />
@@ -120,7 +120,7 @@ export default function Home() {
 <Card 
       url="https://tablericons.com/"
       title="Tabler Icons" 
-      src="/icons/tableicons.png" 
+      src="/icons/tableicons.svg" 
       alt="Imagem do card" 
       desc="O Tabler Icons é um site que oferece mais de 1400 ícones SVG gratuitos e de código aberto. É uma biblioteca útil para designers e desenvolvedores que desejam adicionar ícones estilizados em seus projetos. Os ícones são criados por Codecalm e Paweł." 
       />
@@ -136,7 +136,7 @@ export default function Home() {
 <Card 
       url="https://shape.so/"
       title="Shape SO" 
-      src="/icons/shape.png" 
+      src="/icons/shape.svg" 
       alt="Imagem do card" 
       desc="O Shape é um site que oferece uma variedade de formas personalizáveis para uso em projetos de design. É uma ferramenta útil para designers e desenvolvedores que desejam adicionar formas estilizadas e modernas em seus projetos. O site permite que você personalize as formas de acordo com suas necessidades." 
       />
@@ -144,7 +144,7 @@ export default function Home() {
 <Card 
       url="https://akveo.github.io/eva-icons/#/"
       title="Eva Icons" 
-      src="/icons/evaicons.ico" 
+      src="/icons/evaicons.jpg" 
       alt="Imagem do card" 
       desc="O Eva Icons é um site que oferece uma coleção de ícones de interface de usuário de código aberto, cuidadosamente projetados para ações e itens comuns. É uma biblioteca útil para designers e desenvolvedores que desejam adicionar ícones estilizados e modernos em seus projetos. O site permite que você explore e utilize os ícones de forma fácil e gratuita." 
       />

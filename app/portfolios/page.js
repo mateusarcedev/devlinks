@@ -24,7 +24,7 @@ export default function Home() {
       <Card 
       url="https://olaolu.dev/"
       title="Ola Olu" 
-      src="/portfolios/olaolu.png" 
+      src="/portfolios/olaolu.svg" 
       alt="Imagem do card" 
       desc="Ele gosta de criar produtos front-end sólidos e escaláveis com ótimas experiências para o usuário." 
       />

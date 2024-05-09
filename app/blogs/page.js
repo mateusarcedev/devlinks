@@ -16,7 +16,7 @@ export default function Home() {
       <Card 
       url="https://medium.com/"
       title="Medium" 
-      src="/blogs/medium.png" 
+      src="/blogs/medium.webp" 
       alt="Imagem do card" 
       desc="É uma plataforma onde você pode descobrir histórias e conhecimentos de escritores sobre diversos temas. É possível ler artigos de diferentes áreas, como programação, ciência de dados, tecnologia, autoaperfeiçoamento, escrita, , aprendizado de máquina, produtividade, entre outros" 
       />
@@ -32,7 +32,7 @@ export default function Home() {
     <Card 
     url="https://diolinux.com.br/"
       title="Diolinux" 
-      src="/blogs/diolinux.png" 
+      src="/blogs/diolinux.webp" 
       alt="Imagem do card" 
       desc="É uma plataforma que aborda o mundo Linux e o software de código aberto. Nele, você encontrará conteúdo exclusivo, notícias, tutoriais e podcasts sobre sistemas operacionais como Zorin OS, Ubuntu, Elementary OS, Linux Mint, entre outros. Além disso, o site também aborda temas relacionados a aplicativos, Android e tecnologia em geral." 
       />
@@ -40,7 +40,7 @@ export default function Home() {
       <Card 
       url="https://stackoverflow.com/"
       title="Stack Overflow" 
-      src="/blogs/stackoverflow.ico" 
+      src="/blogs/stackoverflow.png" 
       alt="Imagem do card" 
       desc="Stack Overflow é uma plataforma onde desenvolvedores aprendem, compartilham conhecimento e constroem suas carreiras. É um espaço para fazer perguntas, obter respostas e colaborar com a comunidade de programadores. Também oferece recursos como chat, blog e a possibilidade de criar equipes de trabalho." 
       />
@@ -56,7 +56,7 @@ export default function Home() {
       <Card 
       url="https://projecthub.arduino.cc/"
       title="Arduino Project Hub" 
-      src="/blogs/arduino_project_hub.ico" 
+      src="/blogs/arduino.png" 
       alt="Imagem do card" 
       desc="Arduino Project Hub é uma plataforma onde os usuários podem navegar e compartilhar milhares de projetos criados com Arduino. Ela oferece modelos prontos para projetos de IoT, permitindo que os usuários criem projetos rapidamente, sem a necessidade de programação. O site também fornece recursos educacionais para aprendizado e inspiração." 
       />
@@ -64,7 +64,7 @@ export default function Home() {
 <Card 
       url="https://cult.honeypot.io/"
       title="Cult Honeypot" 
-      src="/blogs/cult_honeypot.png" 
+      src="/blogs/cult_honeypot.svg" 
       alt="Imagem do card" 
       desc="é uma plataforma que oferece conteúdo relacionado a desenvolvimento de carreira na área de tecnologia. Ele apresenta artigos, eventos, podcasts e relatórios sobre diversos tópicos relevantes para desenvolvedores. Além disso, o site também possui uma seção de vagas de emprego para profissionais da área." 
       />
@@ -88,7 +88,7 @@ export default function Home() {
 <Card 
     url="https://www.tabnews.com.br/"
       title="TabNews" 
-      src="/blogs/tabnews.png" 
+      src="/blogs/tabnews.svg" 
       alt="Imagem do card" 
       desc="O TabNews é um site brasileiro desenvolvido e mantido pela comunidade, que oferece conteúdos relevantes sobre programação e tecnologia. Os usuários podem interagir com o site e ganhar tabcoins, uma moeda virtual, ao participar ativamente da comunidade." 
       />
@@ -96,7 +96,7 @@ export default function Home() {
       <Card 
       url="https://css-tricks.com/"
       title="CSS-Tricks" 
-      src="/blogs/csstricks.ico" 
+      src="/blogs/csstricks.png" 
       alt="Imagem do card" 
       desc="CSS-Tricks é um site dedicado a fornecer dicas, truques e tutoriais sobre CSS e desenvolvimento web. É uma valiosa fonte de informações para designers e desenvolvedores que desejam aprimorar suas habilidades em CSS. O site também aborda tópicos relacionados, como JavaScript e ferramentas de desenvolvimento web." 
       />

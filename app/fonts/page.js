@@ -16,14 +16,14 @@ export default function Home() {
       <Card 
       url="https://www.1001fonts.com/"
       title="1001 Fonts" 
-      src="/fonts/1001fonts.ico" 
+      src="/fonts/1001fonts.png" 
       alt="Imagem do card" 
       desc="Oferece uma ampla variedade de fontes gratuitas para download, adequadas para projetos de design gráfico e web. Os usuários podem explorar e baixar fontes para uso pessoal e comercial." 
       />
 
       <Card 
       url="https://www.abstractfonts.com/"
-      title="Abstrac Fonts" 
+      title="Abstract Fonts" 
       src="/fonts/abstractfont.png" 
       alt="Imagem do card" 
       desc="Oferece uma vasta coleção de fontes gratuitas para download, adequadas para diversas aplicações de design e tipografia. Os usuários podem explorar e baixar fontes para uso pessoal e comercial." 
@@ -40,7 +40,7 @@ export default function Home() {
       <Card 
       url="https://befonts.com/"
       title="Befonts" 
-      src="/fonts/befonts.webp" 
+      src="/fonts/befonts.png" 
       alt="Imagem do card" 
       desc="Oferece uma ampla variedade de fontes gratuitas e premium para download, adequadas para projetos de design gráfico e web. Os usuários podem explorar e baixar fontes para uso pessoal e comercial." 
       />
@@ -48,7 +48,7 @@ export default function Home() {
 <Card 
       url="https://www.dafont.com/pt/"
       title="Dafont" 
-      src="/fonts/dafont.ico" 
+      src="/fonts/dafont.png" 
       alt="Imagem do card" 
       desc="Uma plataforma que disponibiliza uma vasta coleção de fontes gratuitas para uso pessoal e algumas para fins comerciais. Os usuários podem navegar e fazer o download de fontes para incorporar em seus projetos de design e tipografia." 
       />
@@ -56,7 +56,7 @@ export default function Home() {
 <Card 
       url="https://www.fontget.com/"
       title="Font Get" 
-      src="/fonts/fontget.ico" 
+      src="/fonts/fontget.webp" 
       alt="Icone do site DocAPI.dev" 
       desc="Oferece uma ampla variedade de fontes gratuitas e premium para download, adequadas para projetos de design gráfico e web. Os usuários podem explorar e baixar fontes para uso pessoal e comercial." 
       />
@@ -72,7 +72,7 @@ export default function Home() {
       <Card 
       url="https://www.fontspace.com/"
       title="Font Space" 
-      src="/fonts/fontspace.ico" 
+      src="/fonts/fontspace.jpg" 
       alt="Imagem do card" 
       desc="Oferece uma ampla variedade de fontes gratuitas e premium para download, adequadas para projetos de design gráfico e web. Os usuários podem explorar e baixar fontes para uso pessoal e comercial." 
       />
@@ -97,7 +97,7 @@ export default function Home() {
 <Card 
       url="https://www.nerdfonts.com/"
       title="Nerd Fonts" 
-      src="/fonts/nerdfonts.ico" 
+      src="/fonts/nerdfonts.svg" 
       alt="Icone do site DocAPI.dev" 
       desc="O site oferece uma coleção de fontes que inclui símbolos e ícones de programação, tornando-as úteis para desenvolvedores de software e entusiastas de tecnologia. Os usuários podem baixar e usar essas fontes para melhorar a legibilidade de código e documentos técnicos." 
       />
@@ -113,7 +113,7 @@ export default function Home() {
 <Card 
       url="https://www.urbanfonts.com/"
       title="Urban Fonts" 
-      src="/fonts/urbanfonts.ico" 
+      src="/fonts/urbanfonts.png" 
       alt="Imagem do card" 
       desc="O site oferece uma coleção de fontes gratuitas e pagas para designers gráficos e criativos. Os usuários podem explorar e baixar fontes para uso em diversos projetos de design." 
       />

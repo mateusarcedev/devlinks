@@ -88,7 +88,7 @@ export default function Home() {
 <Card 
     url="https://headlessui.com/"
       title="Headless UI" 
-      src="/tools/headlessui.ico" 
+      src="/tools/headlessui.png" 
       alt="Imagem do card" 
       desc="O Headless UI é uma biblioteca de componentes de interface de usuário completamente sem estilo, projetados para serem totalmente acessíveis e integrarem perfeitamente com o Tailwind CSS. Ele oferece uma solução flexível e personalizável para criar interfaces bonitas e acessíveis em seus projetos web." 
       />
@@ -112,7 +112,7 @@ export default function Home() {
 <Card 
       url="https://swimm.io/"
       title="Swimm IO" 
-      src="/tools/swimmio.webp" 
+      src="/tools/swimmio.png" 
       alt="Imagem do card" 
       desc="Facilita a documentação interna de código e o compartilhamento de conhecimento entre equipes de desenvolvimento. Com recursos como geração automática de documentação, integração com IDEs e plugins para CI, o Swimm ajuda a acelerar o desenvolvimento e a manter a documentação atualizada. " 
       />
@@ -136,7 +136,7 @@ export default function Home() {
 <Card 
       url="https://tailwindui.com/components"
       title="Tailwind UI" 
-      src="/tools/tailwindui.ico" 
+      src="/tools/tailwindui.png" 
       alt="Imagem do card" 
       desc="O Tailwind UI é uma biblioteca de componentes e templates prontos para uso, projetados com expertise e beleza, para acelerar o desenvolvimento de projetos com Tailwind CSS. É uma ferramenta essencial para criar interfaces bonitas e responsivas de forma rápida e eficiente." 
       />
@@ -144,7 +144,7 @@ export default function Home() {
 <Card 
       url="https://bohr.io/"
       title="Bohr IO" 
-      src="/tools/borhio.ico" 
+      src="/tools/bohrio.svg" 
       alt="Imagem do card" 
       desc="O bohr.io é uma plataforma de desenvolvimento e implantação integrada ao GitHub, projetada para ajudar os desenvolvedores a liberarem todo o seu potencial. Eles oferecem recursos básicos gratuitos, planos pagos para projetos comerciais e suporte à comunidade por meio de seu servidor Discord." 
       />
@@ -152,7 +152,7 @@ export default function Home() {
 <Card 
       url="https://mintlify.com/"
       title="Mintlify" 
-      src="/tools/mintlify.ico" 
+      src="/tools/mintlify.svg" 
       alt="Imagem do card" 
       desc="Mintlify é uma plataforma que ajuda você a criar uma documentação bonita e eficaz para seus usuários. Seja você um desenvolvedor, gerente de produto ou profissional de marketing, você pode usar o Mintlify para criar e manter documentação que converta usuários." 
       />
@@ -160,7 +160,7 @@ export default function Home() {
 <Card 
       url="https://books.goalkicker.com/"
       title="Notas de programação para profissionais" 
-      src="/tools/freebooksnotes.ico" 
+      src="/tools/freebooksnotes.jpg" 
       alt="Imagem do card" 
       desc="Site com vários livros de anotações de diferentes tecnologiais(em inglês)." 
       />
@@ -168,7 +168,7 @@ export default function Home() {
 <Card 
       url="https://rxresu.me/pt-BR"
       title="Currículo reativo" 
-      src="/tools/reativeresume.ico" 
+      src="/tools/reativeresume.png" 
       alt="Imagem do card" 
       desc="É um gerador de currículos, gratuito e de código aberto, desenvolvido para facilitar as tarefas tediosas de criação, atualização e divulgação de seu currículo. Este aplicativo possibilita a criação de múltiplos currículos, que podem ser compartilhados com recrutadores ou amigos com um link exclusivo ou impressos como PDF. Tudo isso de graça, sem anúncios, sem rastreamento, mantendo a integridade e privacidade dos seus dados." 
       />
