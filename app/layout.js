@@ -1,8 +1,12 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
+import CategoryBar from "@/components/CategoryBar";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ['latin'] });
+
+
 
 export const metadata = {
 	openGraph: {
@@ -53,7 +57,14 @@ export default function RootLayout({ children }) {
 				<meta property="og:image:alt" content="Image preview" />
 				<meta property="og:type" content="website" />
 			</Head>
-			<body className={inter.className}>{children}</body>
+			<body className="bg-[#111111] h-full ">
+				<Navbar />
+				<div className='flex items-center justify-center'>
+					<CategoryBar />
+				</div>
+				{children}
+				{/* <Footer /> */}
+			</body>
 		</html>
 	);
 }

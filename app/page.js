@@ -1,16 +1,12 @@
-import CategoryBar from "@/components/CategoryBar";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-
 export default function Home() {
 	return (
 		<div className="bg-background h-full flex flex-col">
-			<Navbar />
+
 
 			<main className="flex flex-col items-center px-24 py-16 gap-12 text-[#D9D9D9]">
-				<CategoryBar />
+
 				<div className="flex flex-col gap-4 items-center">
-					<h1 className="text-4xl">Sobre o projeto 🧑🏽‍💻</h1>
+					<h1 className="text-4xl md:text-2xl sm:text-xl">Sobre o projeto 🧑🏽‍💻</h1>
 					<p className="text-xl">
 						Este é um projeto criado para ajudar programadores
 						iniciantes a encontrar ferramentas úteis para o
@@ -33,8 +29,6 @@ export default function Home() {
 					</p>
 				</div>
 			</main>
-
-			<Footer />
 		</div>
 	);
 }

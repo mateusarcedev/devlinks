@@ -1,15 +1,9 @@
 import Card from "@/components/Card";
-import CategoryBar from "@/components/CategoryBar";
-import Navbar from "@/components/Navbar";
 
 export default function Home() {
 	return (
 		<>
-			<Navbar />
 			<main className="bg-background flex flex-col items-center w-full ">
-				<div className="w-4/5 flex justify-center items-center">
-					<CategoryBar />
-				</div>
 				<div className="w-4/5 flex justify-center items-center mt-4 gap-4 flex-wrap mb-5">
 					<Card
 						url="https://www.1001fonts.com/"
