@@ -11,6 +11,7 @@ export default function Navbar() {
 				<Link
 					target="_blank"
 					href="https://github.com/mateusarcedev/devlinks"
+					className="hover:bg-blue-600 rounded-lg"
 				>
 					<Image
 						src="/utils/github.svg"

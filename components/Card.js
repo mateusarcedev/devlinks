@@ -12,6 +12,7 @@ export default function Card(props) {
 					height={100}
 					src={props.src}
 					alt={props.alt}
+					loading="lazy" // lazy loading
 				/>
 				<p className="m-2 bg-transparent flex justify-center text-sm">
 					{props.desc}
