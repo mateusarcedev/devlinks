@@ -1,18 +1,25 @@
-import NextAuth, { AuthOptions } from "next-auth";
+import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github";
-import { JWT } from "next-auth/jwt";
 import { AxiosConfig } from "../../../utils/axiosConfig";
 
-const options: AuthOptions = {
+const options = {
   providers: [
     GithubProvider({
-      clientId: process.env.GITHUB_ID!,
-      clientSecret: process.env.GITHUB_SECRET!,
+      clientId: process.env.GITHUB_ID,
+      clientSecret: process.env.GITHUB_SECRET,
+      profile(profile) {
+        return {
+          id: profile.id,
+          name: profile.name,
+          email: profile.email,
+          avatar_url: profile.avatar_url,
+        };
+      },
     }),
   ],
   callbacks: {
     async signIn({ user, account, profile }) {
-      const { id, name, email, avatar_url }: any = profile;
+      const { id, name, email, avatar_url } = profile;
 
       try {
         const res = await AxiosConfig.post('/users', {
@@ -41,7 +48,7 @@ const options: AuthOptions = {
     },
     async session({ session, token }) {
       if (session.user) {
-        (session.user as any).githubId = (token as JWT & { githubId?: number }).githubId;
+        session.user.githubId = token.githubId;
       }
       return session;
     },
