@@ -1,9 +1,9 @@
-import NextAuth from "next-auth";
+import NextAuth, { AuthOptions } from "next-auth";
 import GithubProvider from "next-auth/providers/github";
 import { JWT } from "next-auth/jwt";
 import { AxiosConfig } from "../../../utils/axiosConfig";
 
-const options = {
+const options: AuthOptions = {
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID!,
@@ -41,7 +41,7 @@ const options = {
     },
     async session({ session, token }) {
       if (session.user) {
-        (session.user as any).githubId = (token as JWT & { githubId: number }).githubId;
+        (session.user as any).githubId = (token as JWT & { githubId?: number }).githubId;
       }
       return session;
     },
