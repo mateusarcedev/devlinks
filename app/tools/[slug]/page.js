@@ -1,9 +1,11 @@
 'use client';
 
+import { useState } from 'react';
 import { useParams } from 'next/navigation';
 import { useQuery } from "@tanstack/react-query";
 import { AxiosConfig } from "../../utils/axiosConfig";
 import Card from '../../../components/Card';
+import { Toast } from '../../../components/Toast';  // Certifique-se de que o caminho de importação está correto
 
 async function fetchCategoryData(id) {
   const { data } = await AxiosConfig.get(`/categories/${id}`);
@@ -13,12 +15,17 @@ async function fetchCategoryData(id) {
 export default function ToolsPage() {
   const params = useParams();
   const slug = params.slug;
+  const [toast, setToast] = useState(null);
 
   const { data: categoryData, isLoading, error } = useQuery({
     queryKey: ["category", slug],
     queryFn: () => fetchCategoryData(slug),
     enabled: !!slug,
   });
+
+  const showToast = (message, type) => {
+    setToast({ message, type });
+  };
 
   if (isLoading) return <div className="flex justify-center items-center h-screen">Carregando...</div>;
   if (error) return <div className="flex justify-center items-center h-screen">Erro ao carregar os dados da categoria</div>;
@@ -27,9 +34,16 @@ export default function ToolsPage() {
     <div className="w-4/5 mx-auto py-8">
       <div className="grid grid-cols-4 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {categoryData?.tools?.map(tool => (
-          <Card key={tool.id} tool={tool} />
+          <Card key={tool.id} tool={tool} showToast={showToast} />
         ))}
       </div>
+      {toast && (
+        <Toast
+          message={toast.message}
+          type={toast.type}
+          onClose={() => setToast(null)}
+        />
+      )}
     </div>
   );
 }
