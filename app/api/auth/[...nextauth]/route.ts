@@ -1,9 +1,9 @@
-import NextAuth, { NextAuthOptions } from "next-auth";
+import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github";
 import { JWT } from "next-auth/jwt";
 import { AxiosConfig } from "../../../utils/axiosConfig";
 
-export const authOptions: NextAuthOptions = {
+const options = {
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID!,
@@ -49,6 +49,7 @@ export const authOptions: NextAuthOptions = {
   debug: process.env.NODE_ENV === 'development',
 };
 
-const handler = NextAuth(authOptions);
+const handler = NextAuth(options);
 
+// Exportando o handler como GET e POST
 export { handler as GET, handler as POST };
