@@ -1,39 +1,13 @@
+'use client'
+
 import './globals.css';
-import { Inter } from 'next/font/google';
 import Head from 'next/head';
-import CategoryBar from "@/components/CategoryBar";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import CategoryBar from "../components/CategoryBar";
+import Navbar from "../components/Navbar";
+import { QueryProvider } from './providers';
+import { SessionProvider } from 'next-auth/react';
 
-
-
-
-export const metadata = {
-	openGraph: {
-		title: 'DevLinks',
-		description:
-			'Descubra ferramentas essenciais para programadores. Acelere seu desenvolvimento de software.',
-		url: 'https://devlinks.mateusarce.dev/',
-		siteName: 'DevLinks',
-		images: [
-			{
-				url: './devlinks.svg',
-				width: 800,
-				height: 600,
-			},
-			{
-				url: './devlinks.svg',
-				width: 1800,
-				height: 1600,
-				alt: 'Logo do Site',
-			},
-		],
-		locale: 'pt_BR',
-		type: 'website',
-	},
-};
-
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, session }) {
 	return (
 		<html lang="pt-br" className="h-full">
 			<Head>
@@ -58,12 +32,15 @@ export default function RootLayout({ children }) {
 				<meta property="og:type" content="website" />
 			</Head>
 			<body className="bg-[#111111] h-full ">
-				<Navbar />
-				<div className='flex items-center justify-center'>
-					<CategoryBar />
-				</div>
-				{children}
-				{/* <Footer /> */}
+				<SessionProvider session={session}>
+					<QueryProvider>
+						<Navbar />
+						<div className='flex flex-col items-center justify-center'>
+							<CategoryBar />
+						</div>
+						{children}
+					</QueryProvider>
+				</SessionProvider>
 			</body>
 		</html>
 	);

@@ -6,6 +6,9 @@ const nextConfig = {
   compress: false,
   images: {
     unoptimized: true
+  },
+  experimental: {
+    appDir: true,
   }
 }
 
