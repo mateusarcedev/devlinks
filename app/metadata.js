@@ -7,12 +7,12 @@ export const metadata = {
     siteName: 'DevLinks',
     images: [
       {
-        url: './devlinks.svg',
+        url: '/devlinks.svg',
         width: 800,
         height: 600,
       },
       {
-        url: './devlinks.svg',
+        url: '/devlinks.svg',
         width: 1800,
         height: 1600,
         alt: 'Logo do Site',
