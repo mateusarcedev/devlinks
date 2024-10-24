@@ -73,7 +73,7 @@ export default function Card({ tool, onFavoriteChange }) {
 
 	return (
 		<>
-			<Link href={tool.link} target="_blank" className="block w-full max-w-sm">
+			<Link href={tool.link} target="_blank" className="block w-64 max-w-sm">
 				<div className="bg-white hover:bg-blue-50 rounded-lg flex flex-col justify-between p-6 relative shadow-md transition-all duration-300 ease-in-out group cursor-pointer h-[290px]">
 					<div className="flex justify-between items-center w-full">
 						<h2 className="text-2xl font-semibold text-gray-800 group-hover:text-blue-600 transition-colors duration-300">

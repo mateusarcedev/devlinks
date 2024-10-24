@@ -32,7 +32,7 @@ export default function ToolsPage() {
 
   return (
     <div className="w-4/5 mx-auto py-8">
-      <div className="grid grid-cols-4 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="flex flex-wrap justify-between items-center gap-4">
         {categoryData?.tools?.map(tool => (
           <Card key={tool.id} tool={tool} showToast={showToast} />
         ))}
