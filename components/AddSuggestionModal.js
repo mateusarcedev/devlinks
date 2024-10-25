@@ -1,10 +1,15 @@
 import { useState, useEffect } from 'react'
 import { X } from 'lucide-react'
-import { useQuery } from "@tanstack/react-query"
+import { useQuery, useMutation } from "@tanstack/react-query"
 import { AxiosConfig } from "../app/utils/axiosConfig"
 
 async function fetchCategories() {
   const { data } = await AxiosConfig.get("/categories")
+  return data
+}
+
+async function createSuggestion(suggestionData) {
+  const { data } = await AxiosConfig.post("/suggestions", suggestionData)
   return data
 }
 
@@ -20,10 +25,37 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
     queryFn: fetchCategories,
   })
 
+  const mutation = useMutation({
+    mutationFn: createSuggestion,
+    onSuccess: (data) => {
+      // Reset form
+      setName('')
+      setLink('')
+      setDescription('')
+      setCategoryId('')
+
+      // Close modal
+      onClose()
+
+      // Notify parent component
+      onSubmit(data)
+    },
+    onError: (error) => {
+      console.error('Error creating suggestion:', error)
+    }
+  })
+
   const handleSubmit = (e) => {
     e.preventDefault()
-    onSubmit({ name, link, description, categoryId })
-    onClose()
+
+    const suggestionData = {
+      name,
+      link,
+      description,
+      categoryId
+    }
+
+    mutation.mutate(suggestionData)
   }
 
   useEffect(() => {
@@ -63,6 +95,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
               onChange={(e) => setName(e.target.value)}
               className="w-full px-3 py-2 bg-zinc-800 border border-zinc-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-zinc-600"
               required
+              disabled={mutation.isPending}
             />
           </div>
           <div>
@@ -76,6 +109,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
               onChange={(e) => setLink(e.target.value)}
               className="w-full px-3 py-2 bg-zinc-800 border border-zinc-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-zinc-600"
               required
+              disabled={mutation.isPending}
             />
           </div>
           <div>
@@ -90,6 +124,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
               rows={4}
               maxLength={230}
               required
+              disabled={mutation.isPending}
             />
             <p className="text-xs text-zinc-400 mt-1">{description.length}/230 caracteres</p>
           </div>
@@ -101,9 +136,10 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
               type="button"
               onClick={() => setIsSelectOpen(!isSelectOpen)}
               className="w-full px-3 py-2 bg-zinc-800 border border-zinc-700 rounded-md text-white text-left focus:outline-none focus:ring-2 focus:ring-zinc-600"
+              disabled={mutation.isPending}
             >
               {categoryId
-                ? categories?.find(cat => cat.id.toString() === categoryId)?.name
+                ? categories?.find(cat => cat.id === categoryId)?.name
                 : 'Selecione uma categoria'
               }
             </button>
@@ -120,7 +156,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
                       type="button"
                       className="w-full px-3 py-2 text-left hover:bg-zinc-700 text-white"
                       onClick={() => {
-                        setCategoryId(category.id.toString())
+                        setCategoryId(category.id)
                         setIsSelectOpen(false)
                       }}
                     >
@@ -134,9 +170,9 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
           <button
             type="submit"
             className="w-full py-2 bg-zinc-700 hover:bg-zinc-600 text-white rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-            disabled={isLoading || error}
+            disabled={isLoading || error || mutation.isPending}
           >
-            Enviar Sugestão
+            {mutation.isPending ? 'Enviando...' : 'Enviar Sugestão'}
           </button>
         </form>
       </div>
