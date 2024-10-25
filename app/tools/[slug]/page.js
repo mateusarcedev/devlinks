@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import { useQuery } from "@tanstack/react-query";
 import { AxiosConfig } from "../../utils/axiosConfig";
 import Card from '../../../components/Card';
-import { Toast } from '../../../components/Toast';  // Certifique-se de que o caminho de importação está correto
+import { Toast } from '../../../components/Toast';
 
 async function fetchCategoryData(id) {
   const { data } = await AxiosConfig.get(`/categories/${id}`);

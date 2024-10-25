@@ -39,10 +39,16 @@ export default function Home() {
 				</div>
 
 				<section className="space-y-8">
-					<h2 className="text-3xl font-bold text-center text-white">Nossos Colaboradores</h2>
+					<h2 className="text-3xl font-bold text-center text-white">Contribuidores</h2>
 					<div className="flex flex-wrap justify-center gap-4 md:gap-6">
 						{contributors.map((contributor) => (
-							<div key={contributor.id} className="flex flex-col items-center group">
+							<a
+								key={contributor.id}
+								href={contributor.html_url}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="flex flex-col items-center group"
+							>
 								<div className="relative overflow-hidden rounded-full border-2 border-transparent group-hover:border-gray-500 transition-colors duration-300">
 									<Image
 										src={contributor.avatar_url}
@@ -55,7 +61,7 @@ export default function Home() {
 								<span className="mt-2 text-sm font-medium text-gray-400 group-hover:text-white transition-colors duration-300">
 									{contributor.login}
 								</span>
-							</div>
+							</a>
 						))}
 					</div>
 				</section>
