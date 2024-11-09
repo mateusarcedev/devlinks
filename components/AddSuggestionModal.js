@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { X } from 'lucide-react'
 import { useQuery, useMutation } from "@tanstack/react-query"
 import { AxiosConfig } from "../app/utils/axiosConfig"
+import { useSession } from "next-auth/react"
 
 async function fetchCategories() {
   const { data } = await AxiosConfig.get("/categories")
@@ -14,6 +15,7 @@ async function createSuggestion(suggestionData) {
 }
 
 export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
+  const { data: session, status } = useSession()
   const [name, setName] = useState('')
   const [link, setLink] = useState('')
   const [description, setDescription] = useState('')
@@ -48,11 +50,18 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
   const handleSubmit = (e) => {
     e.preventDefault()
 
+    // Verificar se o usuário está autenticado
+    if (status !== "authenticated" || !session?.user?.id) {
+      console.error('User not authenticated')
+      return
+    }
+
     const suggestionData = {
       name,
       link,
       description,
-      categoryId
+      categoryId,
+      userId: parseInt(session.user.id)
     }
 
     mutation.mutate(suggestionData)
@@ -71,6 +80,25 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
 
   if (!isOpen) return null
 
+  if (status === "unauthenticated") {
+    return (
+      <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div className="bg-zinc-900 rounded-lg w-full max-w-md p-6 text-center">
+          <h2 className="text-xl font-semibold text-white mb-4">Login Necessário</h2>
+          <p className="text-zinc-300 mb-4">
+            Você precisa estar logado para enviar uma sugestão.
+          </p>
+          <button
+            onClick={onClose}
+            className="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 text-white rounded-md transition-colors"
+          >
+            Fechar
+          </button>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
       <div className="bg-zinc-900 rounded-lg w-full max-w-md max-h-[90vh] overflow-y-auto">
@@ -84,6 +112,18 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
           </button>
         </div>
         <form onSubmit={handleSubmit} className="p-6 space-y-4">
+          <div className="flex items-center space-x-3 p-3 bg-zinc-800 rounded-lg">
+            <img
+              src={session?.user?.image}
+              alt={session?.user?.name}
+              className="w-8 h-8 rounded-full"
+            />
+            <div className="text-sm">
+              <p className="text-white font-medium">{session?.user?.name}</p>
+              <p className="text-zinc-400">{session?.user?.email}</p>
+            </div>
+          </div>
+
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-zinc-300 mb-1">
               Nome da Ferramenta
@@ -98,6 +138,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
               disabled={mutation.isPending}
             />
           </div>
+
           <div>
             <label htmlFor="link" className="block text-sm font-medium text-zinc-300 mb-1">
               Link
@@ -112,6 +153,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
               disabled={mutation.isPending}
             />
           </div>
+
           <div>
             <label htmlFor="description" className="block text-sm font-medium text-zinc-300 mb-1">
               Descrição
@@ -128,6 +170,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
             />
             <p className="text-xs text-zinc-400 mt-1">{description.length}/230 caracteres</p>
           </div>
+
           <div className="relative">
             <label htmlFor="category" className="block text-sm font-medium text-zinc-300 mb-1">
               Categoria
@@ -167,6 +210,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
               </div>
             )}
           </div>
+
           <button
             type="submit"
             className="w-full py-2 bg-zinc-700 hover:bg-zinc-600 text-white rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
