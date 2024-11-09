@@ -51,7 +51,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
     e.preventDefault()
 
     // Verificar se o usuário está autenticado
-    if (status !== "authenticated" || !session?.user?.id) {
+    if (status !== "authenticated" || !session?.user?.githubId) {
       console.error('User not authenticated')
       return
     }
@@ -61,7 +61,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
       link,
       description,
       categoryId,
-      userId: parseInt(session.user.id)
+      userId: session.user.githubId
     }
 
     mutation.mutate(suggestionData)
@@ -114,7 +114,7 @@ export default function AddSuggestionModal({ isOpen, onClose, onSubmit }) {
         <form onSubmit={handleSubmit} className="p-6 space-y-4">
           <div className="flex items-center space-x-3 p-3 bg-zinc-800 rounded-lg">
             <img
-              src={session?.user?.image}
+              src={session?.user?.avatar_url}
               alt={session?.user?.name}
               className="w-8 h-8 rounded-full"
             />

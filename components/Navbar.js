@@ -45,7 +45,7 @@ export default function Navbar() {
 		<>
 			<nav className="bg-navbar h-24 text-white flex items-center p-5 justify-between">
 				<Link href="/" className="text-3xl font-bold hover:text-white/80">
-					DevLinks
+					Tools4.tech
 				</Link>
 				<div className="flex items-center gap-4">
 					<button

@@ -20,7 +20,7 @@ export default function Home() {
 					<section className="space-y-4 p-6 bg-[#222] rounded-lg">
 						<h2 className="text-2xl font-bold text-white">Objetivo</h2>
 						<p className="text-md leading-relaxed">
-							O DevLinks visa ser um ponto centralizado de recursos, beneficiando tanto programadores
+							O Tools4.tech visa ser um ponto centralizado de recursos, beneficiando tanto programadores
 							novatos quanto experientes. Ao consolidar uma ampla gama de ferramentas e materiais de
 							estudo em um único local, o projeto busca simplificar o processo de aprendizagem e
 							desenvolvimento, tornando-o mais acessível e eficiente para todos os níveis de experiência

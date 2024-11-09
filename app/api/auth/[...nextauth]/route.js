@@ -43,12 +43,14 @@ const options = {
     async jwt({ token, account, profile }) {
       if (account && profile) {
         token.githubId = parseInt(profile.id);
+        token.avatar_url = profile.avatar_url;
       }
       return token;
     },
     async session({ session, token }) {
       if (session.user) {
         session.user.githubId = token.githubId;
+        session.user.avatar_url = token.avatar_url;
       }
       return session;
     },
