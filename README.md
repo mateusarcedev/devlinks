@@ -4,12 +4,6 @@
 
 O **Tools4.tech** visa ser um ponto centralizado de recursos, beneficiando tanto programadores novatos quanto experientes. Ao consolidar uma ampla gama de ferramentas e materiais de estudo em um único local, o projeto busca simplificar o processo de aprendizagem e desenvolvimento, tornando-o mais acessível e eficiente para todos os níveis de experiência em programação.
 
-## Funcionalidades
-
-* Repositório centralizado de ferramentas técnicas e recursos de TI.
-* Atualizações contínuas com as melhores práticas e recomendações.
-* Integração com a página web para uma experiência otimizada.
-
 ## Como Contribuir?
 
 Acesso a documentação [aqui](./CONTRIBUTING.md)
